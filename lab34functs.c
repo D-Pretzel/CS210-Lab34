@@ -54,6 +54,7 @@ int reverse_bits(unsigned int input) {
 
         // Add the current bit to the output
         output |= (input >> i) & 1;
+
     }
 
     // Return the output
