@@ -3,7 +3,7 @@
 * Name: FIRST LAST, DATE
 * Section: SECTION
 * Project: Lab 34
-* =========================================================== 
+* ===========================================================
 */
 
 #include "lab34functs.h"
@@ -18,7 +18,7 @@ int main() {
     // Write a function make_crc() that accepts a character array and returns the
     // 32 bit CRC value calculated using the CRC-32 algorithm and the pre-computed
     // table of polynomial values defined in the CRCTAB array defined in the header file.
-    
+
     // Pseudocode for the CRC-32 algorithm is below.
     // 0) if you skipped the text above, go back and read it
     // 1) initialize crc32 as an unsigned 32 bit value of all ones
@@ -32,7 +32,7 @@ int main() {
     // 5) return the inverse (not reverse) of the crc32 value (negate all bits)
 
     // You are free to include code here to test your function.
-   
+
     return 0;
 
 }

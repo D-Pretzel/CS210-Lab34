@@ -11,6 +11,14 @@
 
 void print_bits(void* ptr, int num_bytes);
 
+int reverse_bits(unsigned int input);
+
+int bit_rotate_left(unsigned int input, int num_bits);
+
+int bit_rotate_right(unsigned int input, int num_bits);
+
+int make_crc(char string[]);
+
 // Pre-computed table of 32 bit polynomial values (CRC-32 table)
 // USED IN LAB34-4
 static const int CRCTAB[256] = {0x00000000, 0x77073096, 0xee0e612c, 0x990951ba, 0x076dc419,
